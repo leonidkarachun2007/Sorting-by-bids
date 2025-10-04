@@ -42,31 +42,75 @@ using namespace std;
 //}
 
 
+// 1 задание 
 
-int main()
-{
-    srand(time(NULL));
-    //«адание 3.
-    // ѕользователь вводит длину сторон п€тиугольника, 
-    // кажда€ сторона заноситьс€ в массив, необходимо  
-    // вычислить периметр п€тиугольника (периметр Ч сумма всех сторон).
+//int main() {
+//    setlocale(0, "ru");
+//
+//    double profit[6]; 
+//    double total = 0;  
+//
+//    cout << "¬ведите прибыль фирмы за 6 мес€цев:\n";
+//
+//    for (int i = 0; i < 6; i++) {
+//        cout << "ћес€ц " << i + 1 << ": ";
+//        cin >> profit[i];   
+//        total += profit[i];  
+//    }
+//
+//    cout << "\nќбща€ прибыль за 6 мес€цев: " << total << endl;
+//
+//}
 
-    const int SIZE = 5;
-    int arr[SIZE];
-    int P = 0;
+// 2 задание
 
-    for (int i = 0; i < SIZE; i++)
-    {
-        cout << "Enter -> " << i + 1 << " -> ";
-        cin >> arr[i];
-        P += arr[i]; // 
-    }
-    for (int i = 0; i < SIZE; i++)
-    {
-        cout << arr[i] << "\t";
-    }
-    cout << endl;
-    cout << "P = " << P << endl;
+//int main() {
+//    setlocale(0, "ru");
+//    srand(time(NULL)); 
+//
+//    const int n = 10;
+//    int arr[n];
+//
+//    cout << "»сходный массив:\n";
+//    for (int i = 0; i < n; i++) {
+//        arr[i] = rand() % 100; 
+//        cout << arr[i] << " ";
+//    }
+//
+//    cout << "\nћассив в обратном пор€дке:\n";
+//    for (int i = n - 1; i >= 0; i--) {
+//        cout << arr[i] << " ";
+//    }
+//
+//
+//
+//}
 
-
-}
+//
+//int main()
+//{
+//    srand(time(NULL));
+//    //задание 3.
+//    // пользователь вводит длину сторон п€тиугольника, 
+//    // кажда€ сторона заноситьс€ в массив, необходимо  
+//    // вычислить периметр п€тиугольника (периметр Ч сумма всех сторон).
+//
+//    const int size = 5;
+//    int arr[size];
+//    int p = 0;
+//
+//    for (int i = 0; i < size; i++)
+//    {
+//        cout << "enter -> " << i + 1 << " -> ";
+//        cin >> arr[i];
+//        p += arr[i]; // 
+//    }
+//    for (int i = 0; i < size; i++)
+//    {
+//        cout << arr[i] << "\t";
+//    }
+//    cout << endl;
+//    cout << "p = " << p << endl;
+//
+//
+//}
